@@ -1,0 +1,4 @@
+spring:
+  application:
+    name: decola-tech-2025-medical-appointments
+

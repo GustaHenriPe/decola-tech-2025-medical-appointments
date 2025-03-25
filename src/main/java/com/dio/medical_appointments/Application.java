@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DecolaTech2025MedicalAppointmentsApplication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DecolaTech2025MedicalAppointmentsApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 
 }

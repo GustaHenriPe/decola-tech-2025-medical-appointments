@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: decola-tech-2025-medical-appointments
+  datasource:
+    url: jdbc:h2:mem:sdw2023
+    username: admin
+    password:
+  jpa:
+    show-sql: true
+    open-in-view: false
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+      settings:
+        trace: false
+        web-allow-others: false
