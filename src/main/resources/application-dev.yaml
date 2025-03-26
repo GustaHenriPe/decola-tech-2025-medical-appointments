@@ -15,3 +15,7 @@ spring:
       settings:
         trace: false
         web-allow-others: false
+  flyway:
+    enable: true
+    locations: classpath:db/migrations
+    baseline-on-migrate: true

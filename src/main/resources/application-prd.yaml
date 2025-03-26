@@ -1,4 +1,7 @@
 spring:
   application:
     name: decola-tech-2025-medical-appointments
-
+  flyway:
+    enable: true
+    locations: classpath:db/migrations
+    baseline-on-migrate: true
