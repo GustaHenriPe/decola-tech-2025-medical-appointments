@@ -1,5 +1,5 @@
 CREATE TABLE consultation (
-    id INT PRIMARY KEY,
+    id serial INT PRIMARY KEY,
     patient_id INT NOT NULL,
     doctor_id INT NOT NULL,
     scheduled_date_time DATETIME NOT NULL,
