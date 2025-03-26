@@ -23,7 +23,7 @@ classDiagram
         +int patientId
         +int doctorId
         +Datetime scheduledDateTime
-        +String description
+        +String reason
         +String status
     }
 
