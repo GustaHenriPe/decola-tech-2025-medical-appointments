@@ -1,6 +1,6 @@
-package com.dio.medical_appointments.repository;
+package com.dio.medical_appointments.domain.repository;
 
-import com.dio.medical_appointments.model.Consultation;
+import com.dio.medical_appointments.domain.model.Consultation;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

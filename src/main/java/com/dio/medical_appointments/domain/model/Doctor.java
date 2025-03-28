@@ -1,4 +1,4 @@
-package com.dio.medical_appointments.model;
+package com.dio.medical_appointments.domain.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
