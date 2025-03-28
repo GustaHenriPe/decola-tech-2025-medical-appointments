@@ -1,8 +1,8 @@
 CREATE TABLE patient (
-    id serial INT PRIMARY KEY AUTO_INCREMENT,
+    id SERIAL PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
     cpf VARCHAR(11) UNIQUE NOT NULL,
-    cellphone VARCHAR(15),
-    email VARCHAR(100) UNIQUE,
+    cellphone VARCHAR(15) NOT NULL,
+    email VARCHAR(100) UNIQUE NOT NULL,
     date_of_birth DATE NOT NULL
 );
