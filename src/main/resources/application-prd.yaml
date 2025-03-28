@@ -1,6 +1,16 @@
 spring:
   application:
     name: decola-tech-2025-medical-appointments
+  datasource:
+    url: jdbc:postgresql://${PGHOST}:${PGPORT}/${PGDATABASE}
+    username: ${PGUSER}
+    password: ${PGPASSWORD}
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+    open-in-view: false
+
   flyway:
     enable: true
     locations: classpath:db/migrations

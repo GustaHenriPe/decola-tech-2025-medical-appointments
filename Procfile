@@ -1,0 +1,1 @@
+web: java -jar target/decola-tech-2025-medical-appointments-0.0.1-SNAPSHOT.jar
